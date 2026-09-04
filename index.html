@@ -135,6 +135,8 @@ p.body{color:var(--muted);max-width:64ch;margin:0 0 18px}
   border:1px solid var(--line);border-radius:999px;
   padding:4px 13px;font-size:13.5px;background:rgba(255,255,255,.6);
 }
+a.pill{color:var(--indigo);text-decoration:none;font-weight:560;transition:background .15s,border-color .15s}
+a.pill:hover{background:#fff;border-color:var(--indigo)}
 
 /* ---------- audiences ---------- */
 .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:8px}
@@ -190,6 +192,7 @@ footer strong{color:#F5F2EA;font-weight:600}
     </a>
     <div class="navlinks">
       <a href="#product">Product</a>
+      <a href="#how">How we work</a>
       <a href="#company">Company</a>
       <a class="keep" href="#contact">Contact</a>
     </div>
@@ -232,7 +235,8 @@ footer strong{color:#F5F2EA;font-weight:600}
         <a class="cta" href="https://aanganapp.in" rel="noopener">Visit aanganapp.in &rarr;</a>
         <div class="status">
           <span class="pill">Web</span>
-          <span class="pill">iOS &amp; Android — coming soon</span>
+          <a class="pill" href="https://apps.apple.com/in/app/aangan-community/id6782353225" target="_blank" rel="noopener">Download for iPhone &rarr;</a>
+          <a class="pill" href="https://play.google.com/store/apps/details?id=com.dyuthix.aangan" target="_blank" rel="noopener">Get it on Android &rarr;</a>
         </div>
       </div>
     </div>
@@ -259,7 +263,22 @@ footer strong{color:#F5F2EA;font-weight:600}
   </div>
 </section>
 
-<section class="alt" id="company">
+<section class="alt" id="how">
+  <div class="wrap">
+    <h2>How we work</h2>
+    <h3>One product — built with the people who use it.</h3>
+    <p class="lead">We are not an agency, and we do not take on projects. We make one thing. But we make it alongside the societies that run on it, which is a different promise from shipping a fixed product and a feature request form.</p>
+    <p class="body">Community software tends to fail the same way: it is written far from the place it serves, arrives complete, and every society that does things a little differently is told to adapt. We would rather adapt the software. Before anything is switched on we sit with a committee and map how the place is actually run today — the register at the gate, the spreadsheet the treasurer guards, the WhatsApp group that somehow runs the AGM.</p>
+    <ul class="feat">
+      <li><b>Start from your process.</b> Not from our module list. What already works stays; we only replace what is genuinely costing someone their evenings.</li>
+      <li><b>Switch on only what you need.</b> Every module is enabled per community. A society that wants nothing but the community side never sees a billing screen.</li>
+      <li><b>If it doesn't exist, we build it.</b> A workflow specific to your society, a report your auditor insists on — tell us, and it ships into your Aangan and stays part of the product.</li>
+    </ul>
+    <p class="body" style="margin-top:26px">That last one is not a hypothetical. Aangan's Builder Edition — an entire mode that runs a project from pre-launch through construction to handover — exists because one community asked for something that wasn't there.</p>
+  </div>
+</section>
+
+<section id="company">
   <div class="wrap">
     <h2>Company</h2>
     <h3>Registered details</h3>
@@ -282,7 +301,7 @@ footer strong{color:#F5F2EA;font-weight:600}
   </div>
 </section>
 
-<section id="contact">
+<section class="alt" id="contact">
   <div class="wrap">
     <h2>Contact</h2>
     <h3>Get in touch</h3>
@@ -293,7 +312,7 @@ footer strong{color:#F5F2EA;font-weight:600}
       </div>
       <div class="mail">
         <span>Founder</span>
-        <a href="mailto:lakshmankamathk@dyuthix.com">lakshmankamathk@dyuthix.com</a>
+        <a href="mailto:Lakshman@dyuthix.com">Lakshman@dyuthix.com</a>
       </div>
     </div>
   </div>
